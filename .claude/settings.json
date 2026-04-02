@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:5175)",
+      "Read(//c/Users/Justy/.claude/plans/**)"
+    ]
+  }
+}
