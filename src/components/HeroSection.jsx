@@ -35,7 +35,7 @@ export default function HeroSection() {
       <p className="hero-sub">Designer &amp; Developer</p>
       <p className="hero-desc">Computer Science &amp; Engineering Student specialized in web development, c++, and graphic design</p>
       <div className="hero-cta-group">
-        <CTAButton variant="accent">Projects</CTAButton>
+        <CTAButton variant="accent" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>Projects</CTAButton>
         <a href="https://docs.google.com/document/d/1JvqmAZPXJqf94Yg_JQtAL9MNhnEEVRDg/export?format=pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <CTAButton variant="white">Download Resume</CTAButton>
         </a>
